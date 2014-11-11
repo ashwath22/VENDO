@@ -1,6 +1,8 @@
+//  GO GO VENDO
 
 #include <AFMotor.h>
 #include <ReceiveOnlySoftwareSerial.h>
+
 ReceiveOnlySoftwareSerial mySerial(10);
 AF_Stepper motor(48, 2);
 char inChar;
