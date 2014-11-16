@@ -18,7 +18,7 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(4, PIN, NEO_GRB + NEO_KHZ800);
 void setup() {
   pinMode(3,INPUT);
   pinMode(5,INPUT);
-  pinMode(6,INPUT);
+  //pinMode(6,INPUT);
   pinMode(13,INPUT);
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
