@@ -3,7 +3,6 @@
 #include <AFMotor.h>
 
 int t = 0;
-int d = 0;
 
 AF_Stepper motor(48, 2);
 
@@ -48,12 +47,12 @@ void loop()
 
 void CCW() {
   Serial.println("LEFT!"); 
-  motor.step(100, BACKWARD, SINGLE);
+  motor.step(910, BACKWARD, SINGLE);
   delay(2000);
 }
 
 void CW() {
   Serial.println("RIGHT!"); 
-  motor.step(100, FORWARD, SINGLE);
+  motor.step(910, FORWARD, SINGLE);
   delay(2000);
 }
