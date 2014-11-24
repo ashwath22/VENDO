@@ -13,7 +13,7 @@ void setup()
 {
   Serial.begin(9600);
   
-  motor.setSpeed(350);
+  motor.setSpeed(300);
   
   pinMode(CCW_pin, INPUT);
   pinMode(CW_pin, INPUT);
